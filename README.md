@@ -1,0 +1,21 @@
+# node-test-sera-rabitmq
+
+index.ts as a publisher and do loop.
+receiver.ts as a receiver to call nodemailer service.
+nodemailer.ts as a service module.
+
+To install dependencies:
+
+```bash
+bun install
+```
+
+To run:
+
+```bash
+bun run receive.ts
+bun run index.ts
+
+```
+
+This project was created using `bun init` in bun v1.0.1. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
